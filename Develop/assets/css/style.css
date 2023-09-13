@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* changed div element to header for the class selectors */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changed the header div element to a header nav */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -85,23 +85,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Dryed the code up, also changed the three different benefit article classes into a single article class since structurally there was no difference between the three */
 .benefit-article {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Same as above */
 .benefit-article h3  {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* as above, so below */
 .benefit-article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* combined the three into one */
 .main-article {
     margin-bottom: 20px;
     padding: 50px;
